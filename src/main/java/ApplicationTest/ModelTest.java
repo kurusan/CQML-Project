@@ -28,7 +28,7 @@ public class ModelTest {
     /**
      * Cette fonction est appele avant tous les autres test on y instancie le model a tester
      */
-    @BeforeClass
+    @Before
     public void avantTest(){
         model = Model.getInstance();
         //on verifie si l'instance est null
@@ -36,7 +36,7 @@ public class ModelTest {
     }
 
     /**
-     * On verifie si la connection a la base de donnée est effective
+     * On verifie si la connexion a la base de donnée est effective
      */
 	@Test
     public void getInstanceTest() {
@@ -53,8 +53,6 @@ public class ModelTest {
 	    try {
             //on regarde dabord si linstance renvoyer est null
             Assert.assertNotNull(model.getHistory());
-            //on test la nature de lobjet renvoyer par la requette
-            Assert.assertTrue(model.getHistory() instanceof ResultSet);
         }catch (SQLException e){
             System.out.println(e.getMessage());
         }
