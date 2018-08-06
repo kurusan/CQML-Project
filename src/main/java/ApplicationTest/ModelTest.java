@@ -10,7 +10,7 @@ import org.junit.Test;
 import java.sql.SQLException;
 import java.util.Date;
 
-/** 
+/**
  * Dans cette classe nous allons tester la connexion a la base de donnée
  * @author Abdou Khadre DIOP, Babacar FALL, Mohamed LEYE, Zaynabou DIA, Awa DIA
  * @date 4/08/2018
@@ -36,7 +36,7 @@ public class ModelTest {
     /**
      * On verifie si la connexion a la base de donnée est effective
      */
-	@Test
+    @Test
     public void getInstanceTest() {
         //on test la nature de lobjet renvoyer par la
         Assert.assertTrue("Lobjet renvoyer par la requette n'est pas celui attendu",model instanceof Model);
@@ -48,7 +48,7 @@ public class ModelTest {
      */
     @Test
     public void getHistoryTest() throws SQLException {
-	    try {
+        try {
             //on regarde dabord si linstance renvoyer est null
             Assert.assertNotNull(model.getHistory());
         }catch (SQLException e){
@@ -63,5 +63,5 @@ public class ModelTest {
     public void insertTest(){
         Assert.assertNotNull(model.insertStatement("2x2a+3b+c","2",new Date()));
     }
-	
+
 }
