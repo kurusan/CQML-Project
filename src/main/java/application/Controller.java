@@ -81,7 +81,7 @@ public class Controller {
 	
 	@FXML private AnchorPane main;
 	
-	Controller(){
+	public Controller(){
 		date = new Date();
 		motif = Pattern.compile(regex);
 		model = Model.getInstance();

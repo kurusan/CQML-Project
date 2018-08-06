@@ -1,10 +1,16 @@
 package ApplicationTest;
 
 import application.Controller;
-import org.junit.BeforeClass;
+import javafx.fxml.FXMLLoader;
+import javafx.scene.Parent;
+import javafx.scene.Scene;
+import javafx.stage.Stage;
 import org.junit.Test;
-import org.junit.gen5.api.extension.ExtendWith;
+
 import static org.testfx.assertions.api.Assertions.assertThat;
+import org.testfx.framework.junit.ApplicationTest;
+import static org.testfx.api.FxAssert.verifyThat;
+import org.testfx.matcher.base.NodeMatchers;
 
 
 /**
@@ -13,13 +19,14 @@ import static org.testfx.assertions.api.Assertions.assertThat;
  * @date 4/08/2018
  * @version 1.0
  */
-public class InterfaceTest {
 
-    private final String ID_BOUTTON_VALIDER = "submitButton";
-    private final String ID_A_TEXT = "firstOp";
-    private final String ID_B_TEXT = "secondOp";
-    private final String ID_C_TEXT = "thirdOp";
-    private final String ID_RESULT_TEXT = "resultField";
+public class InterfaceTest extends ApplicationTest{
+
+    private final String ID_BOUTTON_VALIDER = "#submitButton";
+    private final String ID_A_TEXT = "#firstOp";
+    private final String ID_B_TEXT = "#secondOp";
+    private final String ID_C_TEXT = "#thirdOp";
+    private final String ID_RESULT_TEXT = "#resultField";
 
     private Controller controller;
 
@@ -28,20 +35,71 @@ public class InterfaceTest {
     /**
      * Initialisons la page
      */
-    @BeforeClass
-    private void initPage(){
-
+    @Override
+    public void start(Stage primaryStage) throws Exception{
+        FXMLLoader loader = new FXMLLoader(this.getClass().getResource("/Users/user/Documents/master/cqml/CQML/2nddegre/2ndApp/src/main/java/ApplicationTest/MainScene.fxml"));
+        Controller controleur= new Controller();
+        loader.setController(controleur);
+        Parent root = loader.load();
+        primaryStage.setTitle("Application de resolution équation 2nd degré dans R");
+        primaryStage.setScene(new Scene(root,840,600));
+        primaryStage.show();
     }
+
+    /**
+     * on verifie si le champs a est dans linterface
+     */
+    @Test
+    public void champAExiste(){
+        verifyThat(ID_A_TEXT, NodeMatchers.isNotNull());
+    }
+
+    /**
+     * on verifie si le champs b est dans linterface
+     */
+    @Test
+    public void champBExiste(){
+        verifyThat(ID_B_TEXT, NodeMatchers.isNotNull());
+    }
+
+    /**
+     * on verifie si le champs c est dans linterface
+     */
+    @Test
+    public void champCExiste(){
+        verifyThat(ID_C_TEXT, NodeMatchers.isNotNull());
+    }
+
+    /**
+     * on verifie si le boutton est dans linterface
+     */
+    @Test
+    public void bouttonValiderExiste(){
+        verifyThat(ID_BOUTTON_VALIDER, NodeMatchers.isNotNull());
+    }
+
+    /**
+     * on verifie si le champs resultat est dans linterface
+     */
+    @Test
+    public void bouttonResultatExiste(){
+        verifyThat(ID_RESULT_TEXT, NodeMatchers.isNotNull());
+    }
+
 
 
     /**
-     * Test equation
+     * Ici on regarde si le resultat renvoyer par linterface est le bon
      */
     @Test
-    private void testEquation(){
-
+    public void resolutionEquation(){
+        // inserons tout dabord les données
 
     }
+
+
+
+
 
     /**
      * Cette fonction va nous servir de reference pour tester si notre interface fonctionne bien

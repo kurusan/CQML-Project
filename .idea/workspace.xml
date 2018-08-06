@@ -2,19 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0bb35509-65c5-4c29-b625-77ca162d39de" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_library_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_junit5_api_5_0_0_ALPHA.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_junit5_engine_5_0_0_ALPHA.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_junit_commons_5_0_0_ALPHA.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_junit_engine_api_5_0_0_ALPHA.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_opentest4j_opentest4j_1_0_0_ALPHA.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/OperationR.iml" beforeDir="false" afterPath="$PROJECT_DIR$/OperationR.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/snddegre.properties" beforeDir="false" afterPath="$PROJECT_DIR$/snddegre.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/snddegre.script" beforeDir="false" afterPath="$PROJECT_DIR$/snddegre.script" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ApplicationTest/InterfaceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ApplicationTest/InterfaceTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ApplicationTest/ModelTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ApplicationTest/ModelTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/application/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/application/Controller.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/ApplicationTest/ModelTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ApplicationTest/ModelTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application/Controller.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application/Controller.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/bin/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -28,22 +26,23 @@
     <session id="121841090">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
+          <entry key="project.closed" value="2" />
           <entry key="project.open.time.10" value="1" />
+          <entry key="project.open.time.12" value="1" />
           <entry key="project.open.time.3" value="1" />
-          <entry key="project.opened" value="2" />
+          <entry key="project.opened" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="class" value="1" />
+          <entry key="class" value="2" />
           <entry key="classpath" value="1" />
           <entry key="fxbuild" value="1" />
-          <entry key="fxml" value="1" />
+          <entry key="fxml" value="2" />
           <entry key="html" value="1" />
           <entry key="iml" value="1" />
           <entry key="java" value="12" />
-          <entry key="log" value="1" />
+          <entry key="log" value="2" />
           <entry key="project" value="1" />
           <entry key="properties" value="1" />
           <entry key="script" value="1" />
@@ -52,41 +51,44 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CLASS" value="1" />
+          <entry key="CLASS" value="2" />
           <entry key="Eclipse" value="2" />
           <entry key="HTML" value="1" />
           <entry key="IDEA_MODULE" value="1" />
           <entry key="JAVA" value="12" />
-          <entry key="PLAIN_TEXT" value="3" />
+          <entry key="PLAIN_TEXT" value="4" />
           <entry key="Properties" value="1" />
-          <entry key="XML" value="3" />
+          <entry key="XML" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="888" />
+          <entry key="java" value="1339" />
+          <entry key="txt" value="96" />
           <entry key="xml" value="35" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="888" />
+          <entry key="JAVA" value="1339" />
+          <entry key="PLAIN_TEXT" value="96" />
           <entry key="XML" value="35" />
         </counts>
       </usages-collector>
     </session>
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="2ndApp" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/ApplicationTest/ModelTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="645">
-              <caret line="43" column="18" selection-start-line="43" selection-start-column="18" selection-end-line="43" selection-end-column="18" />
+            <state relative-caret-position="495">
+              <caret line="41" column="18" selection-start-line="41" selection-start-column="18" selection-end-line="41" selection-end-column="18" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1825#1826#0" expanded="true" />
-                <element signature="e#1912#1913#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -95,17 +97,20 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/application/Controller.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="145">
-              <caret line="29" column="19" selection-start-line="29" selection-start-column="14" selection-end-line="29" selection-end-column="19" />
+            <state relative-caret-position="630">
+              <caret line="70" selection-start-line="70" selection-end-line="71" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/ApplicationTest/InterfaceTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-291">
-              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+            <state relative-caret-position="326">
+              <caret line="42" selection-start-line="42" selection-end-line="42" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -115,18 +120,18 @@
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/application/MainScene.fxml">
-          <provider editor-type-id="JavaFX-Scene-Builder" />
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="280">
+            <state relative-caret-position="855">
               <caret line="57" column="43" selection-start-line="57" selection-start-column="32" selection-end-line="57" selection-end-column="43" />
             </state>
           </provider>
+          <provider editor-type-id="JavaFX-Scene-Builder" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/application/HistoryControler.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4">
+            <state relative-caret-position="225">
               <caret line="17" column="19" selection-start-line="17" selection-start-column="14" selection-end-line="17" selection-end-column="19" />
             </state>
           </provider>
@@ -135,8 +140,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/application/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="291">
-              <caret line="24" column="21" selection-start-line="24" selection-start-column="21" selection-end-line="24" selection-end-column="21" />
+            <state relative-caret-position="267">
+              <caret line="26" selection-start-line="26" selection-end-line="26" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -144,11 +149,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="608">
-              <caret line="62" column="21" selection-start-line="62" selection-start-column="21" selection-end-line="62" selection-end-column="21" />
+            <state relative-caret-position="645">
+              <caret line="43" column="21" selection-start-line="43" selection-start-column="21" selection-end-line="43" selection-end-column="32" />
             </state>
           </provider>
         </entry>
@@ -175,8 +180,8 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>SCENE</find>
-      <find>scene</find>
       <find>conne</find>
+      <find>scene</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -188,9 +193,11 @@
         <option value="$PROJECT_DIR$/src/application/Controller.java" />
         <option value="$PROJECT_DIR$/src/ApplicationTest/ModelTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/application/HistoryControler.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/ApplicationTest/InterfaceTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/ApplicationTest/ModelTest.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/application/ApplicationTest/InterfaceTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/application/InterfaceTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ApplicationTest/InterfaceTest.java" />
       </list>
     </option>
   </component>
@@ -199,6 +206,13 @@
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
   </component>
   <component name="MavenProjectNavigator">
     <treeState>
@@ -230,7 +244,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -273,23 +287,32 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="ApplicationTest" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="2ndApp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1533492543713" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1533518273769" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="File.Encoding" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -303,7 +326,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.ModelTest.insertTest">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="application.Main" />
       <module name="OperationR" />
@@ -317,7 +340,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ModelTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="InterfaceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="OperationR" />
       <extension name="coverage">
         <pattern>
@@ -326,12 +349,12 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="ApplicationTest" />
-      <option name="MAIN_CLASS_NAME" value="ApplicationTest.ModelTest" />
+      <option name="MAIN_CLASS_NAME" value="ApplicationTest.InterfaceTest" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ModelTest.getHistoryTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="InterfaceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="OperationR" />
       <extension name="coverage">
         <pattern>
@@ -340,14 +363,28 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="ApplicationTest" />
-      <option name="MAIN_CLASS_NAME" value="ApplicationTest.ModelTest" />
-      <option name="METHOD_NAME" value="getHistoryTest" />
+      <option name="MAIN_CLASS_NAME" value="ApplicationTest.InterfaceTest" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="InterfaceTest.bouttonResultatExiste" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="OperationR" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ApplicationTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ApplicationTest" />
+      <option name="MAIN_CLASS_NAME" value="ApplicationTest.InterfaceTest" />
+      <option name="METHOD_NAME" value="bouttonResultatExiste" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ModelTest.insertTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="InterfaceTest.champBExiste" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="OperationR" />
       <extension name="coverage">
         <pattern>
@@ -356,25 +393,27 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="ApplicationTest" />
-      <option name="MAIN_CLASS_NAME" value="ApplicationTest.ModelTest" />
-      <option name="METHOD_NAME" value="insertTest" />
+      <option name="MAIN_CLASS_NAME" value="ApplicationTest.InterfaceTest" />
+      <option name="METHOD_NAME" value="champBExiste" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
+      <item itemvalue="JUnit.InterfaceTest.bouttonResultatExiste" />
+      <item itemvalue="JUnit.InterfaceTest.champBExiste" />
+      <item itemvalue="JUnit.InterfaceTest" />
+      <item itemvalue="JUnit.InterfaceTest (1)" />
       <item itemvalue="Application.Main" />
-      <item itemvalue="JUnit.ModelTest" />
-      <item itemvalue="JUnit.ModelTest.insertTest" />
-      <item itemvalue="JUnit.ModelTest.getHistoryTest" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.ModelTest.insertTest" />
-        <item itemvalue="JUnit.ModelTest.getHistoryTest" />
-        <item itemvalue="JUnit.ModelTest" />
         <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.InterfaceTest" />
+        <item itemvalue="JUnit.InterfaceTest (1)" />
+        <item itemvalue="JUnit.InterfaceTest.champBExiste" />
+        <item itemvalue="JUnit.InterfaceTest.bouttonResultatExiste" />
       </list>
     </recent_temporary>
   </component>
@@ -389,49 +428,97 @@
       <option name="presentableId" value="Default" />
       <updated>1533411699912</updated>
       <workItem from="1533411710446" duration="5178000" />
-      <workItem from="1533427317031" duration="8218000" />
+      <workItem from="1533427317031" duration="12126000" />
+      <workItem from="1533509314197" duration="2428000" />
     </task>
+    <task id="LOCAL-00001" summary="corection de quelques bugs">
+      <created>1533492868627</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1533492868627</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ModelTest - 2018.08.04 at 23h 51m 01s.xml">
-      <configuration name="ModelTest" configurationId="JUnit" />
+    <history-entry file="InterfaceTest - 2018.08.05 at 22h 50m 45s.xml">
+      <configuration name="InterfaceTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ModelTest - 2018.08.05 at 01h 01m 23s.xml">
-      <configuration name="ModelTest" configurationId="JUnit" />
+    <history-entry file="InterfaceTest - 2018.08.05 at 22h 56m 07s.xml">
+      <configuration name="InterfaceTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ModelTest_insertTest - 2018.08.05 at 01h 11m 10s.xml">
-      <configuration name="ModelTest.insertTest" configurationId="JUnit" />
+    <history-entry file="InterfaceTest - 2018.08.05 at 22h 57m 16s.xml">
+      <configuration name="InterfaceTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ModelTest_getHistoryTest - 2018.08.05 at 01h 12m 12s.xml">
-      <configuration name="ModelTest.getHistoryTest" configurationId="JUnit" />
+    <history-entry file="InterfaceTest - 2018.08.05 at 22h 58m 30s.xml">
+      <configuration name="InterfaceTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ModelTest_insertTest - 2018.08.05 at 02h 31m 03s.xml">
-      <configuration name="ModelTest.insertTest" configurationId="JUnit" />
+    <history-entry file="InterfaceTest_(1) - 2018.08.05 at 23h 09m 46s.xml">
+      <configuration name="InterfaceTest (1)" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ModelTest - 2018.08.05 at 17h 11m 06s.xml">
-      <configuration name="ModelTest" configurationId="JUnit" />
+    <history-entry file="InterfaceTest - 2018.08.06 at 00h 04m 54s.xml">
+      <configuration name="InterfaceTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ModelTest - 2018.08.05 at 17h 13m 25s.xml">
-      <configuration name="ModelTest" configurationId="JUnit" />
+    <history-entry file="InterfaceTest - 2018.08.06 at 00h 05m 20s.xml">
+      <configuration name="InterfaceTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ModelTest - 2018.08.05 at 17h 14m 26s.xml">
-      <configuration name="ModelTest" configurationId="JUnit" />
+    <history-entry file="InterfaceTest - 2018.08.06 at 00h 14m 51s.xml">
+      <configuration name="InterfaceTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ModelTest_getHistoryTest - 2018.08.05 at 17h 15m 48s.xml">
-      <configuration name="ModelTest.getHistoryTest" configurationId="JUnit" />
+    <history-entry file="InterfaceTest - 2018.08.06 at 00h 17m 43s.xml">
+      <configuration name="InterfaceTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ModelTest_insertTest - 2018.08.05 at 17h 16m 11s.xml">
-      <configuration name="ModelTest.insertTest" configurationId="JUnit" />
+    <history-entry file="InterfaceTest - 2018.08.06 at 00h 23m 45s.xml">
+      <configuration name="InterfaceTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13396000" />
+    <option name="totallyTimeSpent" value="19732000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
-    <editor active="true" />
     <layout>
+      <window_info id="Image Layers" order="0" />
+      <window_info id="Designer" order="1" />
+      <window_info id="UI Designer" order="2" />
+      <window_info id="Learn" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info active="true" content_ui="combo" id="Project" order="5" sideWeight="0.4979592" visible="true" weight="0.19386107" />
+      <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="7" sideWeight="0.5020408" side_tool="true" weight="0.19386107" />
+      <window_info anchor="bottom" id="Terminal" order="0" sideWeight="0.49676898" weight="0.32876712" />
+      <window_info anchor="bottom" id="Event Log" order="1" sideWeight="0.15185784" side_tool="true" visible="true" weight="0.32876712" />
+      <window_info anchor="bottom" id="Database Changes" order="2" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="3" weight="0.32876712" />
+      <window_info anchor="bottom" id="Message" order="4" />
+      <window_info anchor="bottom" id="Find" order="5" />
+      <window_info anchor="bottom" auto_hide="true" id="Run" order="6" sideWeight="0.84814215" weight="0.28219178" />
+      <window_info anchor="bottom" id="Debug" order="7" weight="0.4" />
+      <window_info anchor="bottom" id="Messages" order="8" sideWeight="0.49919224" weight="0.32876712" />
+      <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="10" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="11" sideWeight="0.4983845" weight="0.32876712" />
+      <window_info anchor="right" id="Capture Analysis" order="0" />
+      <window_info anchor="right" id="Theme Preview" order="1" />
+      <window_info anchor="right" id="Database" order="2" />
+      <window_info anchor="right" id="Palette&#9;" order="3" />
+      <window_info anchor="right" id="Maven Projects" order="4" weight="0.32229403" />
+      <window_info anchor="right" id="Palette" order="5" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="6" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="7" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="8" weight="0.25" />
+    </layout>
+    <layout-to-restore>
       <window_info id="Image Layers" order="0" />
       <window_info id="Designer" order="1" />
       <window_info id="UI Designer" order="2" />
@@ -456,18 +543,23 @@
       <window_info anchor="right" id="Theme Preview" order="1" />
       <window_info anchor="right" id="Database" order="2" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
-      <window_info anchor="right" id="Maven Projects" order="4" visible="true" weight="0.13166398" />
+      <window_info anchor="right" id="Maven Projects" order="4" visible="true" weight="0.32229403" />
       <window_info anchor="right" id="Palette" order="5" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="6" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="7" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="8" weight="0.25" />
-    </layout>
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="corection de quelques bugs" />
+    <MESSAGE value="verification de la presence des champs dinterface" />
+    <option name="LAST_COMMIT_MESSAGE" value="verification de la presence des champs dinterface" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/build.fxbuild">
@@ -521,40 +613,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/snddegre.log">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/snddegre.script">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-9.0.1.jdk/Contents/Home/lib/src.zip!/javafx.fxml/javafx/fxml/FXMLLoader.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-2064">
           <caret line="104" column="13" selection-start-line="104" selection-start-column="13" selection-end-line="104" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/application/HistoryControler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4">
-          <caret line="17" column="19" selection-start-line="17" selection-start-column="14" selection-end-line="17" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/application/Controller.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="145">
-          <caret line="29" column="19" selection-start-line="29" selection-start-column="14" selection-end-line="29" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/application/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="291">
-          <caret line="24" column="21" selection-start-line="24" selection-start-column="21" selection-end-line="24" selection-end-column="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -565,43 +627,81 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/application/MainScene.fxml">
-      <provider editor-type-id="JavaFX-Scene-Builder" />
+    <entry file="file://$PROJECT_DIR$/snddegre.log">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/testfx/testfx-junit/4.0.13-alpha/testfx-junit-4.0.13-alpha.jar!/org/testfx/framework/junit/ApplicationTest.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="57" column="43" selection-start-line="57" selection-start-column="32" selection-end-line="57" selection-end-column="43" />
+        <state relative-caret-position="135">
+          <caret line="24" column="22" selection-start-line="24" selection-start-column="22" selection-end-line="24" selection-end-column="22" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ApplicationTest/ModelTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="645">
-          <caret line="43" column="18" selection-start-line="43" selection-start-column="18" selection-end-line="43" selection-end-column="18" />
+        <state relative-caret-position="495">
+          <caret line="41" column="18" selection-start-line="41" selection-start-column="18" selection-end-line="41" selection-end-column="18" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1825#1826#0" expanded="true" />
-            <element signature="e#1912#1913#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ApplicationTest/InterfaceTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/application/Controller.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-291">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        <state relative-caret-position="630">
+          <caret line="70" selection-start-line="70" selection-end-line="71" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/application/MainScene.fxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="855">
+          <caret line="57" column="43" selection-start-line="57" selection-start-column="32" selection-end-line="57" selection-end-column="43" />
+        </state>
+      </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/application/HistoryControler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="17" column="19" selection-start-line="17" selection-start-column="14" selection-end-line="17" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="645">
+          <caret line="43" column="21" selection-start-line="43" selection-start-column="21" selection-end-line="43" selection-end-column="32" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/snddegre.properties">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/snddegre.script">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/application/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="608">
-          <caret line="62" column="21" selection-start-line="62" selection-start-column="21" selection-end-line="62" selection-end-column="21" />
+        <state relative-caret-position="267">
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ApplicationTest/InterfaceTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="326">
+          <caret line="42" selection-start-line="42" selection-end-line="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
